@@ -25,15 +25,17 @@
   display: flex;
   align-items: center;
   background-color: #eff2f5;
-  padding: 10px;
+  padding: 5px;
+
   margin-left: 10px;
-  border-radius: 66px;
+  border-radius: 999px;
 }
 .header__input > input {
   border: none;
   background-color: transparent;
   outline-width: 0;
   font-size: 17px;
+  margin-left: 4px;
 }
 .header__left > img {
   height: 40px;
@@ -53,7 +55,7 @@
   color: #2db566;
 }
 .activee {
-  border-bottom: 4px solid #2db566;
+  border-bottom: 2px solid #2db566;
 }
 .header__option:hover > .fa {
   color: #2db566;
@@ -70,7 +72,10 @@
   border-radius: 10px;
   align-items: center;
   padding: 10px 20px;
-  border-bottom: 4px solid #2db566;
+  border-bottom: none;
+}
+.activee:hover{
+  border-bottom: 2px solid #2db566;
 }
 .header__right {
   display: flex;
@@ -118,5 +123,8 @@
   }
   .header__input > input {
     font-size: 13px;
+  }
+  .large{
+      font-size: 22px;
   }
 }
