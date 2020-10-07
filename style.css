@@ -88,6 +88,10 @@
 .header__info> h4{
     margin-left: 10px;
 }
+.header__info> img{
+    border-radius: 50%;
+    height: 40px;
+}
 
 
 
